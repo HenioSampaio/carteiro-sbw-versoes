@@ -4,7 +4,7 @@
   "notas": [
     "Corrigido: depois de uma atualização, a tela podia continuar aparecendo como a da versão anterior (cópia guardada pelo navegador interno)."
   ],
-  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.7.1/Carteiro.SBW.exe",
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.7.1/CarteiroSBW.exe",
   "sha256": "c0af347bc1d491c23e9b2dfdbc795c2bf144a082fd8d201b4b4a35c93e8854ee",
   "tamanho": 109578784,
   "publicado_em": "2026-10-18T10:17:50",
