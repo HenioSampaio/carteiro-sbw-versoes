@@ -32,6 +32,30 @@ Não precisa instalar Python nem mais nada. Depois, para atualizar, basta o bot�
 
 ## Toda semana, em 5 passos
 
+```mermaid
+flowchart LR
+    subgraph E["📥 1 - ENTRADA"]
+        direction TB
+        Z["ZFRANQ_002<br/>valores e documentos"]
+        S["Store Database<br/>grupos e e-mails"]
+        K["KNA1<br/>CNPJ e endereço"]
+        N["PDFs das NFS-e<br/>exportados do SAP"]
+    end
+    E --> P["<b>Prévia</b><br/>gera as NDs<br/>junta as NFS-e<br/>monta os e-mails"]
+    P --> C["<b>Conferir</b><br/>totais e alertas"]
+    C --> T["<b>Teste</b><br/>só para você"]
+    T --> V["<b>Envio</b><br/>Microsoft ou Outlook"]
+    V --> F[("enviados.csv<br/>nunca envia 2 vezes")]
+    P -.-> O[("📁 2 - SAIDA<br/>NFS-e + ND<br/>de cada cliente")]
+
+    classDef passo fill:#15803d,stroke:#0f5f2c,color:#fff
+    classDef arquivo fill:#f1f5f9,stroke:#94a3b8,color:#0f172a
+    classDef guarda fill:#fef3c7,stroke:#d97706,color:#78350f
+    class P,C,T,V passo
+    class Z,S,K,N arquivo
+    class F,O guarda
+```
+
 | | Passo | O que acontece |
 |:-:|---|---|
 | 1 | **Arquivos da semana** | Você coloca a ZFRANQ_002, a Store Database, a KNA1 e os PDFs das NFS-e na pasta de entrada. O programa reconhece cada arquivo pelo conteúdo. |
