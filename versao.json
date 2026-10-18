@@ -1,12 +1,17 @@
 {
-  "versao": "2.7.2",
+  "versao": "2.8",
   "data": "18/10/2026",
   "notas": [
-    "Ao refazer a prévia de uma semana, os PDFs que não valem mais (por exemplo, NFS-e reemitida no SAP com outro número) saem da pasta do cliente e vão para _controle\\historico. Antes, a pasta ficava com as notas antigas e as novas juntas (o e-mail já ia só com as certas)."
+    "Prévia: o resultado aparece no alto e os números levam direto ao que interessa (ex.: \"com alerta\" abre o Conferir já filtrado).",
+    "Licenças: ao gerar, sai uma mensagem pronta (com o link de download e o passo a passo) para copiar ou abrir no e-mail; validade em um clique; lista com Revogar.",
+    "Ativação: botão Colar, que aceita a mensagem inteira, e a licença ativa sozinha.",
+    "A lateral mostra até quando vale a licença e avisa 15 dias antes de vencer.",
+    "Conferir e Envio se ajustam melhor a janelas pequenas; os números do envio só aparecem durante o envio.",
+    "Textos revistos e pequenas correções."
   ],
-  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.7.2/CarteiroSBW.exe",
-  "sha256": "f1d980fd1846067126f79766424a169064f3345c4b687682313fe71fa0abd1bc",
-  "tamanho": 109579633,
-  "publicado_em": "2026-10-18T11:08:33",
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.8/CarteiroSBW.exe",
+  "sha256": "56215be31b51bb6dfdd8c43e42b15cc1eb2fd05bb48820223e41f87e5803ca3e",
+  "tamanho": 109600627,
+  "publicado_em": "2026-10-18T11:57:18",
   "revogadas": []
 }
