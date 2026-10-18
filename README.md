@@ -33,27 +33,31 @@ Não precisa instalar Python nem mais nada. Depois, para atualizar, basta o bot�
 ## Toda semana, em 5 passos
 
 ```mermaid
-flowchart LR
-    subgraph E["📥 1 - ENTRADA"]
-        direction TB
+flowchart TB
+    subgraph E["📥 1 - ENTRADA · você coloca os arquivos da semana"]
+        direction LR
         Z["ZFRANQ_002<br/>valores e documentos"]
         S["Store Database<br/>grupos e e-mails"]
         K["KNA1<br/>CNPJ e endereço"]
         N["PDFs das NFS-e<br/>exportados do SAP"]
     end
-    E --> P["<b>Prévia</b><br/>gera as NDs<br/>junta as NFS-e<br/>monta os e-mails"]
-    P --> C["<b>Conferir</b><br/>totais e alertas"]
-    C --> T["<b>Teste</b><br/>só para você"]
-    T --> V["<b>Envio</b><br/>Microsoft ou Outlook"]
-    V --> F[("enviados.csv<br/>nunca envia 2 vezes")]
-    P -.-> O[("📁 2 - SAIDA<br/>NFS-e + ND<br/>de cada cliente")]
+    subgraph W["⚙️ o Carteiro faz"]
+        direction LR
+        P["<b>Prévia</b><br/>gera as NDs e<br/>monta os e-mails"] --> C["<b>Conferir</b><br/>totais e alertas"] --> T["<b>Teste</b><br/>só para você"] --> V["<b>Envio</b><br/>Microsoft ou Outlook"]
+    end
+    subgraph G["🗂️ fica guardado"]
+        direction LR
+        O[("2 - SAIDA<br/>NFS-e + ND de cada cliente")]
+        F[("enviados.csv<br/>nunca envia 2 vezes")]
+    end
+    E --> W --> G
 
     classDef passo fill:#15803d,stroke:#0f5f2c,color:#fff
     classDef arquivo fill:#f1f5f9,stroke:#94a3b8,color:#0f172a
     classDef guarda fill:#fef3c7,stroke:#d97706,color:#78350f
     class P,C,T,V passo
     class Z,S,K,N arquivo
-    class F,O guarda
+    class O,F guarda
 ```
 
 | | Passo | O que acontece |
