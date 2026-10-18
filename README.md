@@ -69,15 +69,12 @@ flowchart TB
 | 5 | **Envio** | Envia aos franqueados, com pausa, retomada e relatório no fim. |
 
 <!-- NOVIDADES:INICIO -->
-## Novidades da versão 3.0
+## Novidades da versão 3.1
 
 <sub>18/10/2026</sub>
 
-- Programa bem menor: de 106 MB para 44 MB. Baixa e abre mais rápido (as planilhas agora são lidas direto, sem bibliotecas que o programa não usava).
-- Montar a prévia de novo com a mesma entrada leva segundos: os PDFs que já foram lidos e não mudaram não são lidos nem copiados outra vez.
-- Semana que vira o ano (ex.: 29/12/2026 a 04/01/2027): pasta, assunto e telas mostram os dois anos. A pasta fica no ano em que a semana termina.
-- A pasta de saída cresce menos: a ND tem metade do tamanho (mesma aparência) e as prévias antigas vão compactadas para o histórico.
-- A tela continua leve com o passar das semanas e o seletor "Semana em trabalho" agrupa as semanas por ano.
+- A pasta "_sistema (não mexer)" agora tem cópia de segurança: se for apagada, o programa a recria sozinho ao abrir, com a configuração, os contatos, a assinatura e a lista do que já foi enviado.
+- Cada semana guarda também a sua lista de enviados (no controle da semana): mesmo sem nenhuma cópia, o programa remonta o que já foi enviado e não manda de novo.
 <!-- NOVIDADES:FIM -->
 
 O histórico completo está em [Releases](https://github.com/HenioSampaio/carteiro-sbw-versoes/releases) e na tela **Novidades** do programa.

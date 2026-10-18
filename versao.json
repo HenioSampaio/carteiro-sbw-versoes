@@ -1,16 +1,13 @@
 {
-  "versao": "3.0",
+  "versao": "3.1",
   "data": "18/10/2026",
   "notas": [
-    "Programa bem menor: de 106 MB para 44 MB. Baixa e abre mais rápido (as planilhas agora são lidas direto, sem bibliotecas que o programa não usava).",
-    "Montar a prévia de novo com a mesma entrada leva segundos: os PDFs que já foram lidos e não mudaram não são lidos nem copiados outra vez.",
-    "Semana que vira o ano (ex.: 29/12/2026 a 04/01/2027): pasta, assunto e telas mostram os dois anos. A pasta fica no ano em que a semana termina.",
-    "A pasta de saída cresce menos: a ND tem metade do tamanho (mesma aparência) e as prévias antigas vão compactadas para o histórico.",
-    "A tela continua leve com o passar das semanas e o seletor \"Semana em trabalho\" agrupa as semanas por ano."
+    "A pasta \"_sistema (não mexer)\" agora tem cópia de segurança: se for apagada, o programa a recria sozinho ao abrir, com a configuração, os contatos, a assinatura e a lista do que já foi enviado.",
+    "Cada semana guarda também a sua lista de enviados (no controle da semana): mesmo sem nenhuma cópia, o programa remonta o que já foi enviado e não manda de novo."
   ],
-  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v3.0/CarteiroSBW.exe",
-  "sha256": "314f27b6a419fa1b6f1b9d0655aed208c0408c4343b374ff48051abd3dbf087f",
-  "tamanho": 46228654,
-  "publicado_em": "2026-10-18T14:22:34",
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v3.1/CarteiroSBW.exe",
+  "sha256": "6c13452c7d04a15fb4780b9c787888c21fbbf12a644066c9126b0ca57c94b62e",
+  "tamanho": 46254810,
+  "publicado_em": "2026-10-18T15:22:59",
   "revogadas": []
 }
