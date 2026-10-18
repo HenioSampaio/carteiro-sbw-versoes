@@ -1,14 +1,12 @@
 {
-  "versao": "3.2",
+  "versao": "3.3",
   "data": "18/10/2026",
   "notas": [
-    "Pasta do Carteiro mais limpa: a pasta do sistema agora se chama \"_sistema\" e fica oculta, o controle de cada semana também fica oculto, e o LEIA-ME.md e o LAUDO.md não são mais criados (a ajuda está no próprio programa).",
-    "Se a pasta tiver só o CarteiroSBW.exe (por exemplo, depois de apagar tudo), o programa oferece criar as pastas ali mesmo, em um clique.",
-    "A lista do que já foi enviado ganhou mais uma cópia, no computador de quem envia: mesmo apagando todas as pastas, o programa não reenvia o que já foi."
+    "A pasta compartilhada guarda só os dados: o código do programa saiu dela, e a tela vem sempre de dentro do CarteiroSBW.exe (ninguém muda a tela de todos sem querer)."
   ],
-  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v3.2/CarteiroSBW.exe",
-  "sha256": "7b5729fa73be500199421ba5e376b106e96a3561c29a4f38d37e030273f389a9",
-  "tamanho": 46258483,
-  "publicado_em": "2026-10-18T15:52:54",
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v3.3/CarteiroSBW.exe",
+  "sha256": "9d869f2fb7db825ec7d58af18d8cf3cff9536c84dd90b5e8757b4f5e71a55b66",
+  "tamanho": 46258142,
+  "publicado_em": "2026-10-18T16:15:07",
   "revogadas": []
 }

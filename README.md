@@ -69,13 +69,11 @@ flowchart TB
 | 5 | **Envio** | Envia aos franqueados, com pausa, retomada e relatório no fim. |
 
 <!-- NOVIDADES:INICIO -->
-## Novidades da versão 3.2
+## Novidades da versão 3.3
 
 <sub>18/10/2026</sub>
 
-- Pasta do Carteiro mais limpa: a pasta do sistema agora se chama "_sistema" e fica oculta, o controle de cada semana também fica oculto, e o LEIA-ME.md e o LAUDO.md não são mais criados (a ajuda está no próprio programa).
-- Se a pasta tiver só o CarteiroSBW.exe (por exemplo, depois de apagar tudo), o programa oferece criar as pastas ali mesmo, em um clique.
-- A lista do que já foi enviado ganhou mais uma cópia, no computador de quem envia: mesmo apagando todas as pastas, o programa não reenvia o que já foi.
+- A pasta compartilhada guarda só os dados: o código do programa saiu dela, e a tela vem sempre de dentro do CarteiroSBW.exe (ninguém muda a tela de todos sem querer).
 <!-- NOVIDADES:FIM -->
 
 O histórico completo está em [Releases](https://github.com/HenioSampaio/carteiro-sbw-versoes/releases) e na tela **Novidades** do programa.
