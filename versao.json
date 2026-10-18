@@ -1,14 +1,14 @@
 {
-  "versao": "2.6",
+  "versao": "2.7",
   "data": "18/10/2026",
   "notas": [
-    "Atualização pelo próprio programa: quando sai versão nova, aparece \"Nova versão\" no alto; um clique baixa, confere e reinstala.",
-    "Licença por pessoa: o programa só funciona com a chave de licença de quem está usando (peça ao responsável pelo Carteiro).",
-    "Reenviar um e-mail já enviado (para corrigir uma devolução): clique no ✓ da linha no passo Conferir."
+    "A cada prévia, os e-mails da Store Database passam por um saneamento: erros de digitação conhecidos são corrigidos (gamil.com, hotmial.com, \".con\"…), lixo como \"False\" é ignorado e o que não dá para corrigir fica de fora.",
+    "Tudo o que foi corrigido ou descartado vai para a aba \"Saneamento e-mails\" da prévia e para a planilha \"Correções Store Database.xlsx\", pronta para mandar à Operações.",
+    "Nova chave no passo Prévia: mandar também para os e-mails da loja (E-MAIL LOJA 1 a 3)."
   ],
-  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.6/Carteiro.SBW.exe",
-  "sha256": "cf63bac78a60d23c6ed866ac56e85bd715537054e811ce7a6d4ce177c4fc2d71",
-  "tamanho": 109568665,
-  "publicado_em": "2026-10-18T00:28:16",
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.7/Carteiro.SBW.exe",
+  "sha256": "a4da27e8a7aa025d43c9170ba87ea42e2dadd815074c996081c8b17cf990aaf5",
+  "tamanho": 109577322,
+  "publicado_em": "2026-10-18T10:08:16",
   "revogadas": []
 }
