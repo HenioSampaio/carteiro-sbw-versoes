@@ -1,0 +1,14 @@
+{
+  "versao": "2.6",
+  "data": "18/10/2026",
+  "notas": [
+    "Atualização pelo próprio programa: quando sai versão nova, aparece \"Nova versão\" no alto; um clique baixa, confere e reinstala.",
+    "Licença por pessoa: o programa só funciona com a chave de licença de quem está usando (peça ao responsável pelo Carteiro).",
+    "Reenviar um e-mail já enviado (para corrigir uma devolução): clique no ✓ da linha no passo Conferir."
+  ],
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.6/Carteiro.SBW.exe",
+  "sha256": "cf63bac78a60d23c6ed866ac56e85bd715537054e811ce7a6d4ce177c4fc2d71",
+  "tamanho": 109568665,
+  "publicado_em": "2026-10-18T00:28:16",
+  "revogadas": []
+}
