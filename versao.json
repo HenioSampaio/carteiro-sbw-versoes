@@ -1,14 +1,12 @@
 {
-  "versao": "2.7",
+  "versao": "2.7.1",
   "data": "18/10/2026",
   "notas": [
-    "A cada prévia, os e-mails da Store Database passam por um saneamento: erros de digitação conhecidos são corrigidos (gamil.com, hotmial.com, \".con\"…), lixo como \"False\" é ignorado e o que não dá para corrigir fica de fora.",
-    "Tudo o que foi corrigido ou descartado vai para a aba \"Saneamento e-mails\" da prévia e para a planilha \"Correções Store Database.xlsx\", pronta para mandar à Operações.",
-    "Nova chave no passo Prévia: mandar também para os e-mails da loja (E-MAIL LOJA 1 a 3)."
+    "Corrigido: depois de uma atualização, a tela podia continuar aparecendo como a da versão anterior (cópia guardada pelo navegador interno)."
   ],
-  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.7/Carteiro.SBW.exe",
-  "sha256": "a4da27e8a7aa025d43c9170ba87ea42e2dadd815074c996081c8b17cf990aaf5",
-  "tamanho": 109577322,
-  "publicado_em": "2026-10-18T10:08:16",
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v2.7.1/Carteiro.SBW.exe",
+  "sha256": "c0af347bc1d491c23e9b2dfdbc795c2bf144a082fd8d201b4b4a35c93e8854ee",
+  "tamanho": 109578784,
+  "publicado_em": "2026-10-18T10:17:50",
   "revogadas": []
 }
