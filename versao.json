@@ -11,5 +11,7 @@
   "sha256": "c0c3d4cbbe170e187d756e32a7605b017fd164d40d7a1c56054048796d6dba7c",
   "tamanho": 46269482,
   "publicado_em": "2026-10-20T20:00:33",
-  "revogadas": []
+  "revogadas": [
+    "51dbc4ad"
+  ]
 }
