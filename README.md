@@ -69,11 +69,14 @@ flowchart TB
 | 5 | **Envio** | Envia aos franqueados, com pausa, retomada e relatório no fim. |
 
 <!-- NOVIDADES:INICIO -->
-## Novidades da versão 3.3
+## Novidades da versão 3.4
 
-<sub>18/10/2026</sub>
+<sub>20/10/2026</sub>
 
-- A pasta compartilhada guarda só os dados: o código do programa saiu dela, e a tela vem sempre de dentro do CarteiroSBW.exe (ninguém muda a tela de todos sem querer).
+- NFS-e cancelada e refaturada: coloque na 1 - ENTRADA a planilha do estorno (o programa reconhece pelo conteúdo e chama de "Estorno NFS-e.xlsx") e a ZFRANQ_002 extraída depois do refaturamento. A nota cancelada nunca é enviada.
+- Se a ZFRANQ_002 ainda tiver NFS-e cancelada, ou se aparecer nota a mais para uma loja sem a planilha do estorno, o grupo fica travado com o que falta fazer.
+- Os PDFs podem vir em qualquer pasta dentro da 1 - ENTRADA (ex.: "PDFs refaturados"), e no fim do envio a entrada esvazia por completo.
+- Corrigido: ao terminar uma semana, a entrada não esvaziava quando outra semana da mesma ZFRANQ_002 já tinha sido enviada.
 <!-- NOVIDADES:FIM -->
 
 O histórico completo está em [Releases](https://github.com/HenioSampaio/carteiro-sbw-versoes/releases) e na tela **Novidades** do programa.

@@ -1,12 +1,15 @@
 {
-  "versao": "3.3",
-  "data": "18/10/2026",
+  "versao": "3.4",
+  "data": "20/10/2026",
   "notas": [
-    "A pasta compartilhada guarda só os dados: o código do programa saiu dela, e a tela vem sempre de dentro do CarteiroSBW.exe (ninguém muda a tela de todos sem querer)."
+    "NFS-e cancelada e refaturada: coloque na 1 - ENTRADA a planilha do estorno (o programa reconhece pelo conteúdo e chama de \"Estorno NFS-e.xlsx\") e a ZFRANQ_002 extraída depois do refaturamento. A nota cancelada nunca é enviada.",
+    "Se a ZFRANQ_002 ainda tiver NFS-e cancelada, ou se aparecer nota a mais para uma loja sem a planilha do estorno, o grupo fica travado com o que falta fazer.",
+    "Os PDFs podem vir em qualquer pasta dentro da 1 - ENTRADA (ex.: \"PDFs refaturados\"), e no fim do envio a entrada esvazia por completo.",
+    "Corrigido: ao terminar uma semana, a entrada não esvaziava quando outra semana da mesma ZFRANQ_002 já tinha sido enviada."
   ],
-  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v3.3/CarteiroSBW.exe",
-  "sha256": "9d869f2fb7db825ec7d58af18d8cf3cff9536c84dd90b5e8757b4f5e71a55b66",
-  "tamanho": 46258142,
-  "publicado_em": "2026-10-18T16:15:07",
+  "exe": "https://github.com/HenioSampaio/carteiro-sbw-versoes/releases/download/v3.4/CarteiroSBW.exe",
+  "sha256": "c0c3d4cbbe170e187d756e32a7605b017fd164d40d7a1c56054048796d6dba7c",
+  "tamanho": 46269482,
+  "publicado_em": "2026-10-20T20:00:33",
   "revogadas": []
 }
